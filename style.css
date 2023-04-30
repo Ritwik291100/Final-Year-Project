@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap');
+*{
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+    background-image: url("images/stcet_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 60%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+.name-label{
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.tag-label{
+    color: rgb(204, 197, 197);
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.tap:hover{
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
